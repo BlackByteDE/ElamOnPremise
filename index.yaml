@@ -3,7 +3,7 @@ entries:
   elamonpremise:
   - apiVersion: v2
     appVersion: develop
-    created: "2024-03-19T15:28:54.1593474+01:00"
+    created: "2024-03-19T15:54:54.3919726+01:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -14,22 +14,22 @@ entries:
     - name: keycloak
       repository: https://charts.bitnami.com/bitnami
       version: 17.3.4
-    description: A Helm chart for Kubernetes
-    digest: 6848ad1e8e3666adff76bf51e383d09a2a0183f5060a24ba146e771f70502fc5
+    description: Elam Solutions OnPremise Server
+    digest: 2a95a9f076bb06a64c849f2f6ef9c12b3426da167af8930f5c2382a29875a81a
     name: elamonpremise
     type: application
     urls:
-    - elamonpremise/elamonpremise-0.0.4.tgz
-    version: 0.0.4
+    - elamonpremise/elamonpremise-0.0.5.tgz
+    version: 0.0.5
   swaonpremise:
   - apiVersion: v2
     appVersion: develop
-    created: "2024-03-19T15:28:54.1598909+01:00"
-    description: A Helm chart for Kubernetes
-    digest: 2c8e248b553ecfaa381c8a2de2e2e70cd3a4146cc3e3b15fffdb2a607d8b62a8
+    created: "2024-03-19T15:54:54.3930568+01:00"
+    description: SWA Client for Elam Solution OnPremise
+    digest: 774ea0edb036e1f4816ac058310f6e6fe63487e2b5e6c77dbedfb54a735c2b50
     name: swaonpremise
     type: application
     urls:
-    - swaonpremise/swaonpremise-0.0.3.tgz
-    version: 0.0.3
-generated: "2024-03-19T15:28:54.1352277+01:00"
+    - swaonpremise/swaonpremise-0.0.5.tgz
+    version: 0.0.5
+generated: "2024-03-19T15:54:54.3681361+01:00"
